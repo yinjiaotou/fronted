@@ -1,3 +1,10 @@
+/*
+ * @Author: yin
+ * @Date: 2023-01-12 16:27:43
+ * @LastEditTime: 2023-01-12 17:29:24
+ * @LastEditors: yin
+ * @Description: 
+ */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
@@ -5,6 +12,7 @@ import { resolve } from 'path'
 const pathResolve = (dir: string) => resolve(__dirname, dir)
 
 // https://vitejs.dev/config/
+
 export default defineConfig({
     plugins: [vue()],
     build: {
